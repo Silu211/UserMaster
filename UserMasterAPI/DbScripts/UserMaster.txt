@@ -1,0 +1,11 @@
+﻿CREATE TABLE UserMaster (
+    UserId INT NOT NULL IDENTITY(1, 1),
+    UserName NVARCHAR(100) NOT NULL,
+    [Password] NVARCHAR(100) NOT NULL,
+    DOB DATETIME NOT NULL,
+    [Address] NVARCHAR(500) NOT NULL,
+    EmailId NVARCHAR(100) NOT NULL,
+    ProfilePicture NVARCHAR(MAX) NOT NULL,
+    ProfilePictureName NVARCHAR(500) NOT NULL,
+    CONSTRAINT PK_UserMaster_UserId PRIMARY KEY (UserId)
+);

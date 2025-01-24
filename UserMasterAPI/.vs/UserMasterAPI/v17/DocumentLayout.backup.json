@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Silu\\UserMasterAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|e:\\silu\\usermasterapi\\dataviewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|solutionrelative:dataviewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|e:\\silu\\usermasterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|e:\\silu\\usermasterapi\\datacontract\\iusermasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|solutionrelative:datacontract\\iusermasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|e:\\silu\\usermasterapi\\datarepository\\usermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|solutionrelative:datarepository\\usermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|e:\\silu\\usermasterapi\\controllers\\usermastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ED2C32-454E-4CD5-B7A0-76FD96601676}|UserMasterAPI.csproj|solutionrelative:controllers\\usermastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\Silu\\UserMasterAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "E:\\Silu\\UserMasterAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:48:45.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogInViewModel.cs",
+              "DocumentMoniker": "E:\\Silu\\UserMasterAPI\\DataViewModel\\LogInViewModel.cs",
+              "RelativeDocumentMoniker": "DataViewModel\\LogInViewModel.cs",
+              "ToolTip": "E:\\Silu\\UserMasterAPI\\DataViewModel\\LogInViewModel.cs",
+              "RelativeToolTip": "DataViewModel\\LogInViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:38:08.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserMasterService.cs",
+              "DocumentMoniker": "E:\\Silu\\UserMasterAPI\\DataContract\\IUserMasterService.cs",
+              "RelativeDocumentMoniker": "DataContract\\IUserMasterService.cs",
+              "ToolTip": "E:\\Silu\\UserMasterAPI\\DataContract\\IUserMasterService.cs",
+              "RelativeToolTip": "DataContract\\IUserMasterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:08:25.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserMasterRepository.cs",
+              "DocumentMoniker": "E:\\Silu\\UserMasterAPI\\DataRepository\\UserMasterRepository.cs",
+              "RelativeDocumentMoniker": "DataRepository\\UserMasterRepository.cs",
+              "ToolTip": "E:\\Silu\\UserMasterAPI\\DataRepository\\UserMasterRepository.cs",
+              "RelativeToolTip": "DataRepository\\UserMasterRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwFwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:53:49.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMasterController.cs",
+              "DocumentMoniker": "E:\\Silu\\UserMasterAPI\\Controllers\\UserMasterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserMasterController.cs",
+              "ToolTip": "E:\\Silu\\UserMasterAPI\\Controllers\\UserMasterController.cs",
+              "RelativeToolTip": "Controllers\\UserMasterController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:05:19.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

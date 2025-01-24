@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "UserMasterAPI.Controllers.LoginController",
+    "Method": "LoginUser",
+    "RelativePath": "api/Login/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "UserMasterAPI.DataViewModel.LogInViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserMasterAPI.Controllers.UserMasterController",
+    "Method": "DeleteUser",
+    "RelativePath": "UserMaster/DeleteUser/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserMasterAPI.Controllers.UserMasterController",
+    "Method": "GetAllUserDetails",
+    "RelativePath": "UserMaster/GetAllUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserMasterAPI.Controllers.UserMasterController",
+    "Method": "GetUserDetailsById",
+    "RelativePath": "UserMaster/GetUserDetailsById/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserMasterAPI.Controllers.UserMasterController",
+    "Method": "GetUserProfilePicture",
+    "RelativePath": "UserMaster/GetUserProfilePicture/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserMasterAPI.Controllers.UserMasterController",
+    "Method": "UpsertUserDetails",
+    "RelativePath": "UserMaster/UpsertUserDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "upsertModel",
+        "Type": "UserMasterAPI.DataViewModel.UserMasterViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
