@@ -1,0 +1,20 @@
+    .example-toolbar {
+      background: linear-gradient(to right, #b3cde0, #e6e6fa);
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      color: black;
+    }
+
+    .example-spacer {
+      flex: 1 1 auto;
+    }
+
+    .user-detail {
+      display: flex;
+      align-items: center;
+    }
+
+    .user-name {
+      margin-left: 8px;
+      font-size: 16px;
+      font-weight: 500;
+    }

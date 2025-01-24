@@ -1,0 +1,39 @@
+<div class="container container-center m-0">
+    <div class="card" style="width: 600px;">
+        <div class="card-header text-center fw-medium">
+            User Login
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img height="150px" width="150px" src="../../assets/images/user.png"
+                        class="object-fit-cover border rounded">
+                </div>
+                <div class="col-sm-8">
+                    <form [formGroup]="loginForm" autocomplete="off">
+                        <div class="mb-3">
+                            <label for="userEmail" class="form-label">Email <span class="color-red">*</span></label>
+                            <input type="text" class="form-control" id="userEmail" formControlName="userEmail">
+                            <div class="color-red"
+                                *ngIf="loginForm.get('userEmail')?.touched && loginForm.get('userEmail')?.invalid">
+                                Enter User Email.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password <span class="color-red">*</span></label>
+                            <input type="password" class="form-control" id="password" formControlName="password">
+                            <div class="color-red"
+                                *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid">
+                                Enter User Password.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-body-secondary text-center">
+            <button mat-raised-button class="me-2" [disabled]="loginForm.invalid" (click)="loginUser()">Login</button>
+            <button mat-raised-button (click)="registerUser()">Register</button>
+        </div>
+    </div>
+</div>

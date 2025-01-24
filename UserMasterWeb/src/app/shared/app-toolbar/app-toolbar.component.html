@@ -1,0 +1,14 @@
+<mat-toolbar class="example-toolbar"> <button mat-icon-button class="example-icon"
+    aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>User Management App</span>
+  <span class="example-spacer"></span>
+
+  <div class="user-detail me-3">
+    <img [src]="loggedInUserDetail.profilePicture" height="40px" width="40px" class="object-fit-cover border rounded">
+    <div class="user-name">{{loggedInUserDetail.userName}}</div>
+  </div>
+  <button mat-raised-button (click)="viewToken()" class="me-2">View Token</button>
+  <button mat-raised-button (click)="logoutUser()">Logout</button>
+</mat-toolbar>
